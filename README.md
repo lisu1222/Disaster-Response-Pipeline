@@ -2,31 +2,31 @@
 
 ## Project Structure:
 
-- app
-| - template
-| |- master.html  # main page of web app
-| |- go.html  # classification result page of web app
-|- run.py  # Flask file that runs app
+app     
+| - template     
+| |- master.html  # main page of web app     
+| |- go.html  # classification result page of web app     
+|- run.py  # Flask file that runs app     
 
-- data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py
-|- DisasterResponse.db   # database to save clean data to
+data    
+|- disaster_categories.csv  # data to process     
+|- disaster_messages.csv  # data to process    
+|- process_data.py      
+|- DisasterResponse.db   # database to save clean data      
 
-- models
-|- train_classifier.py
-|- classifier.pkl  # saved model 
+models
+|- train_classifier.py             
+|- classifier.pkl  # saved model           
 
-- README.md
+README.md                
 
-- visul
-|- visualization1
-|- visualization2
+visul           
+|- visualization1         
+|- visualization2          
 
-- notebooks
-|- ETL Pipeline Preparation.ipynb #Jupyter notebook to test and prepare the ETL process
-|- Machine Learning Pipeline Preparation.ipynb #Jupyter notebook to test and prepare the ML pipeline
+notebooks        
+|- ETL Pipeline Preparation.ipynb #Jupyter notebook to test and prepare the ETL process          
+|- Machine Learning Pipeline Preparation.ipynb #Jupyter notebook to test and prepare the ML pipeline         
 
 ## Project Descriptioin
 This project analyzes disaster data from [Figure Eight](https://www.figure-eight.com/) to build a model for an API that classifies disaster messages. It includes an ETL pipeline, Machine Learning pipeline and Deployment as a Flask web app. 
